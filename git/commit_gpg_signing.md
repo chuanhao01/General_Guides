@@ -85,4 +85,4 @@ $ git config --global gpg.program gpg
 
 # 3. References
 
-- [Main github page](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification)
+- [Github's main tutorial on this](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification)
