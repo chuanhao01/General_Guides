@@ -60,7 +60,7 @@ $ gpg --armor --export 3AA5C34371567BD2
 
 ## 2.3. Adding your GPG Key to your github account
 
-Pictures speak 1000 words. (Also you should be able to figure this out)
+Pictures speak a thousand words. (Also you should be able to figure this out)
 
 ![Add keys to github 1](assets/commit_gpg_signing/add_github_1.png)
 
