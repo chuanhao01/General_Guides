@@ -90,4 +90,4 @@ $ git config --global gpg.program gpg
 #### Updates
 
 - **22/09/2020** Guide completed
-- **28/09/2020** Guide moved to its own folder
+- **28/09/2020** Guide moved to its own folder + Minor changes (Mainly on english)
