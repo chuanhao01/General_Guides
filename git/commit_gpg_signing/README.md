@@ -62,9 +62,9 @@ $ gpg --armor --export 3AA5C34371567BD2
 
 Pictures speak a thousand words. (Also you should be able to figure this out)
 
-![Add keys to github 1](assets/commit_gpg_signing/add_github_1.png)
+![Add keys to github 1](assets/add_github_1.png)
 
-![Add keys to github 2](assets/commit_gpg_signing/add_github_2.png)
+![Add keys to github 2](assets/add_github_2.png)
 
 ## 2.4. Make git sign commits
 
