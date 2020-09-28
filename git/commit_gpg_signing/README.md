@@ -3,7 +3,7 @@
 This guide is to add GPG signing to your commits so that your commits are verified.  
 This guide will add GPG signing for all commits made on the machine, look at references for more information.  
 
-## Table of contents
+## Table of Contents
 - [1. General dependencies](#1-general-dependencies)
 - [2. Guide](#2-guide)
   - [2.1. Generating a new GPG key](#21-generating-a-new-gpg-key)
