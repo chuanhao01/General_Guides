@@ -12,7 +12,7 @@ This guide will add GPG signing for all commits made on the machine, look at ref
   - [2.4. Make git sign commits](#24-make-git-sign-commits)
 - [3. References](#3-references)
 
-# 1. General dependencies
+# 1. General Dependencies
 1. `gpg` (You should have this, it is default on most linux distros)
 
 # 2. Guide
@@ -87,7 +87,7 @@ $ git config --global gpg.program gpg
 
 - [Github's main tutorial on this](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification)
 
-#### Updates
+### Updates
 
 - **22/09/2020** Guide completed
 - **28/09/2020** Guide moved to its own folder + Minor changes (Mainly on english)
