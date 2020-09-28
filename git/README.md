@@ -2,7 +2,7 @@
 
 The guides in this topic will be mainly covering topics directly tied to git and its cloud service providers. (This is mainly [Github](http://github.com/) and [GitLab](http://github.com/) though)
 
-You can use the table below as a quick reference for the guides.  
+You can use the table below as a quick reference for the guides in this topic.  
 
 | Guide              | Description                                          | Date Completed | Link                                   |
 |--------------------|------------------------------------------------------|----------------|----------------------------------------|
