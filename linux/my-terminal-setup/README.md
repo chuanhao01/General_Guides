@@ -67,6 +67,61 @@ For this part you should be referring to the [`oh-my-zsh`](https://github.com/oh
 More information can be found there.  
 Below will just be the general steps needed to install `oh-my-zsh`.  
 
+```bash
+# Getting oh-my-zsh installed
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# You will be promted to anwser some questions
+# Usually you will use your own .zshrc config files
+```
+
+**Sidenote:**  
+For me, since my `.zshrc` config files usually use some plugins, for any errors, look for the plugin on github and install them into `oh-my-zsh`.  
+
+```bash
+# Example using zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+## Installing `Powerlevel10K`
+
+For this it is a little more complicated.  
+Again, the repo's [github](https://github.com/romkatv/powerlevel10k) page will have more information.  
+
+Installing the `MesloLGS NF` fonts so that `Powerlevel10k` works properly.
+
+```bash
+# Make sure to installed the patch Meslo fonts
+# We are using yay because its an AUR
+yay -S ttf-meslo-nerd-font-powerlevel10k
+```
+
+After this, you will have to make sure `Konsole`'s current profile you use is using the `MesloLGS NF Regular` font.  
+After changing it, it should look like this:  
+
+![Konsole with Meslo font](assets/konsole_meslo_font.png)  
+
+Now we will install `Powerlevel10k`.  
+
+```bash
+# Installing Powerlevel10k as a oh-my-zsh plugin
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+Lastly, when `Powerlevel10k` is installed, there will be some configuration that needs be done. (I will leave it to you to decide how to configure your `Powerlevel10k`)
+
+**Sidenote:**
+
+The config file for `Powerlevel10k` is similar to `Zsh`'s config file.  
+It is usually `~/.p10k.zsh`
+
+# Conclusion
+
+Congratulations, if you have made it to the end, your terminal should a little something like this.  
+
+![Final Terminal](assets/final_terminal.png)
+
+Enjoy your new terminal theme :D.
 
 # References
 
