@@ -4,23 +4,30 @@ This guide will be on how to get my terminal setup.
 TL|DR: `I3`, `Konsole`, `Zsh`, `oh-my-zsh` and `Powerlevel10k`
  
 ## Table of Contents
-**TOC HERE**
+- [1. General Dependencies](#1-general-dependencies)
+- [2. Guide](#2-guide)
+  - [2.1. Installing `Konsole`](#21-installing-konsole)
+  - [2.2. Installing `Zsh`](#22-installing-zsh)
+  - [2.3. Installing `oh-my-zsh`](#23-installing-oh-my-zsh)
+  - [2.4. Installing `Powerlevel10K`](#24-installing-powerlevel10k)
+- [3. Conclusion](#3-conclusion)
+- [4. References](#4-references)
 
-# General Dependencies
+# 1. General Dependencies
 
 For this guide I will assume you have `Arch Linux` (I use Arch BTW :D Had to put this in) and the desktop enviroment `I3`. (Although at this point its only a window manager)  
 
 I might do a guide separately on `I3` in the future because that in itself takes quite a while.  
 
-# Guide
+# 2. Guide
 
-To give a bit more background for my terminal setup, I chose `Konsole`, mainly because it looked nice and had the ability to choose profiles. (Maybe in the future I might pick `Alacritty`)  
+To give a bit more background for my terminal setup, I chose `Konsole`, mainly because it looked nice and had the ability to store multiple different profiles. (Maybe in the future I might pick `Alacritty`)  
 
 I chose `Zsh`, `oh-my-zsh` and `Powerlevel10k` mainly to theme my terminal prompt. (This was long overdue, seriously if you use linux as your desktop enviroment, you need this)  
 
 Now, without further ado, let get on with the guide
 
-## Installing `Konsole`  
+## 2.1. Installing `Konsole`  
 
 To install `Konsole` on arch, simply use pacman.  
 
@@ -30,7 +37,7 @@ sudo pacman -S konsole
 
 Note: Icons and such will not work yet because we do not have the entire `KDE Plasma` set. The wiki has more information.
 
-## Installing `Zsh`
+## 2.2. Installing `Zsh`
 
 This is also quite simple, but we do have to keep in mind to change our user's default shell after installing `Zsh`.
 
@@ -61,7 +68,7 @@ source ~/.zshrc
 source PATH_TO_CONFIG
 ```
 
-## Installing `oh-my-zsh`  
+## 2.3. Installing `oh-my-zsh`  
 
 For this part you should be referring to the [`oh-my-zsh`](https://github.com/ohmyzsh/ohmyzsh) github's page.  
 More information can be found there.  
@@ -83,7 +90,7 @@ For me, since my `.zshrc` config files usually use some plugins, for any errors,
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-## Installing `Powerlevel10K`
+## 2.4. Installing `Powerlevel10K`
 
 For this it is a little more complicated.  
 Again, the repo's [github](https://github.com/romkatv/powerlevel10k) page will have more information.  
@@ -115,7 +122,7 @@ Lastly, when `Powerlevel10k` is installed, there will be some configuration that
 The config file for `Powerlevel10k` is similar to `Zsh`'s config file.  
 It is usually `~/.p10k.zsh`
 
-# Conclusion
+# 3. Conclusion
 
 Congratulations, if you have made it to the end, your terminal should a little something like this.  
 
@@ -123,27 +130,20 @@ Congratulations, if you have made it to the end, your terminal should a little s
 
 Enjoy your new terminal theme :D.
 
-# References
+# 4. References
 
-- Arch Linux
+- [Arch Linux](https://wiki.archlinux.org/)
 - I3
-- Konsole
-  - Arch Wiki
-  - Website
+  - [Arch wiki](https://wiki.archlinux.org/index.php/i3)
+  - [Website](https://i3wm.org/)
+- [Konsole](https://konsole.kde.org/)
 - Zsh
+  - [Arch wiki](https://wiki.archlinux.org/index.php/zsh)
+  - [Website](https://www.zsh.org/)
 - oh-my-zsh
-- Powerlevel10k
+  - [Github](https://github.com/ohmyzsh/ohmyzsh)
+  - [Website](https://ohmyz.sh/)
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 ### Updates
-
-
-<!-- 
-REMOVE ME WHEN COPYING
-
-Make sure to add Table of Contents (TOC) when done
-Make sure to generate section numbers when done
-
-Take note to comment out the first two sections when doing this
- -->
-
-
+- **02/10/2020** Guide Completed
