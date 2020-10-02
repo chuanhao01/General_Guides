@@ -124,7 +124,7 @@ It is usually `~/.p10k.zsh`
 
 # 3. Conclusion
 
-Congratulations, if you have made it to the end, your terminal should a little something like this.  
+Congratulations, if you have made it to the end, your terminal should look a little something like this.  
 
 ![Final Terminal](assets/final_terminal.png)
 
