@@ -5,6 +5,6 @@ To be more specific the guides will be covering topics on the desktop linux expe
 
 You can use the table below as a quick reference for the guides in this topic.  
 
-| Guide              | Description                                          | Date Completed | Link                                   |
-|--------------------|------------------------------------------------------|----------------|----------------------------------------|
-| Placeholder | Placeholder | Placeholder | Placeholder |
+| Guide             | Description                                                   | Date Completed | Link                         |
+|-------------------|---------------------------------------------------------------|----------------|------------------------------|
+| My terminal setup | Guide to install the needed dependicies for my terminal setup | 02/10/2020     | [Link](./my-terminal-setup/) |
