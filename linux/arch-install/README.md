@@ -29,7 +29,32 @@ This guide is mainly targetted at intermediate and advanced users of Arch Linux.
 Depending on whether you are connected to Wifi or Ethernet, how you connect to the internet here will defer.
 As such I will leave it to you to connect to the internet.  
 
-## 
+## Partitioning the disks
+
+This step is also quite dependent on your system.
+For me, I usually just have a `UEFI`, `Linux Swap` and `Linux File System` partition.
+The thing to take note off, is that in setting it up and linking them, you have to be very careful, as generating the wrong fstab can brick the system.  
+
+We will mainly be using the `cfdisk`  utility to partition our disks.  
+
+```bash
+cfdisk [device..] # Make sure to specify the disk, if using multiple disk
+
+# Afterwards create a UEFI, Linux Swap and Linux File System partitions
+
+# Note that the UEFI partition can be shared with Windows UEFI partition
+# So if the windows one already exists, there is no need for one more
+```
+
+In order to check how our partitions are like, we can use:  
+
+```bash
+# Using fdisk, has more details
+fdisk -l [device...]
+
+# We can also use lsblk, more general overview
+lsblk [device...]
+```
 
 
 # Conclusion
