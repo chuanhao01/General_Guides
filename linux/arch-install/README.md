@@ -56,6 +56,8 @@ fdisk -l [device...]
 lsblk [device...]
 ```
 
+## Format the partitions
+
 
 # Conclusion
 
