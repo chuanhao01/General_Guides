@@ -9,6 +9,12 @@ A more specific guide for my desktop and laptop setup can be found here:
 
 # General Dependencies
 
+You will just need a live boot stick with Arch Linux.  
+You can find more information on this here:  
+- [Arch Wiki](https://wiki.archlinux.org/index.php/USB_flash_installation_medium)
+- [Youtube Guide](https://www.youtube.com/watch?v=xb4fiFda4no)
+  - It is done using a linux distro but the GUI interface should be the same as windows
+
 # Guide
 
 # Conclusion
