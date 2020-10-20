@@ -39,6 +39,7 @@ We will mainly be using the `cfdisk`  utility to partition our disks.
 
 ```bash
 cfdisk [device..] # Make sure to specify the disk, if using multiple disk
+cfdisk /dev/nvme0n1 # Example using an nvme ssd
 
 # Afterwards create a UEFI, Linux Swap and Linux File System partitions
 
@@ -51,13 +52,34 @@ In order to check how our partitions are like, we can use:
 ```bash
 # Using fdisk, has more details
 fdisk -l [device...]
+fdisk -l /dev/nvme0n1 # Example
 
 # We can also use lsblk, more general overview
 lsblk [device...]
+lsblk /dev/nvme0n1 # Example
 ```
 
 ## Format the partitions
 
+Now that you have your partitions, you have to format them such that the partition type matches what that partition is for.  
+
+Generally, you would want: (Note you can use other partition types depending on your situation)  
+- `UEFI` partition &rarr; `FAT32`
+- `Linux Swap` partition &rarr; `Swap`
+- `Linux File System` partition &rarr; `EXT4`
+
+The code to do this would be:
+
+```bash
+mkfs.fat -F32 <device> # For FAT32 partition type
+swapon <device> # For the swap partition type
+mkfs.ext4 <device> # For the EXT4 partition type
+
+# Examples
+mkfs.fat -F32 /dev/nvme0n1p1
+swapon /dev/nvme0n1p2
+mkfs.ext4 /dev/nvme0n1p3
+```
 
 # Conclusion
 
