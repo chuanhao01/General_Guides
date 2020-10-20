@@ -83,16 +83,29 @@ The code to do this would be:
 
 ```bash
 mkfs.fat -F32 <device> # For FAT32 partition type
-swapon <device> # For the swap partition type
+mkswap <device> # For the swap partition type
 mkfs.ext4 <device> # For the EXT4 partition type
 
 # Examples
 mkfs.fat -F32 /dev/nvme0n1p1
-swapon /dev/nvme0n1p2
+mkswap /dev/nvme0n1p2
 mkfs.ext4 /dev/nvme0n1p3
 ```
 
 ### Mounting the file system
+
+We will now mount the file systems to a directory such that we can then access them. We will also be activating our `Linux Swap` so that the system can use the swap parition as backup RAM.  
+
+To mount a partition onto a directory, we do:  
+
+```bash
+mount <device> <mountpoint/dir/path> # For mounting partitions
+swapon <device> # To activate the Linux Swap
+
+# Example
+mount /dev/nvme0n1p3 /mnt # We are mounting the Linux File System
+swapon /dev/nvme0n1p2 # Activating the Linux Swap
+```
 
 # Conclusion
 
