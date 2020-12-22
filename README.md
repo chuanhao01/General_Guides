@@ -7,8 +7,9 @@ As such I wrote these guides mainly for myself but I hope that they can help you
 
 # General Topics list
 
-| Topic | Description                                                                                                 | Link           |
-|-------|-------------------------------------------------------------------------------------------------------------|----------------|
-| Git   | Guides on anything Git related while also touching on Github and Gitlab as I use those services quite often | [Link](./git/) |
+| Topic | Description                                                                                                                | Link             |
+|-------|----------------------------------------------------------------------------------------------------------------------------|------------------|
+| Git   | Guides on anything Git related while also touching on Github and Gitlab as I use those services quite often                | [Link](./git/)   |
+| Linux | Guides on anything Linux related, although they are mainly for arch linux and i3 as that is my current linux configuration | [Link](./linux/) |
 
 
