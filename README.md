@@ -9,6 +9,6 @@ As such I wrote these guides mainly for myself but I hope that they can help you
 
 | Topic | Description                                                                                                 | Link           |
 |-------|-------------------------------------------------------------------------------------------------------------|----------------|
-| Git   | Guides on anything git related while also touching on Github and Gitlab as I use those services quite often | [Link](./git/) |
+| Git   | Guides on anything Git related while also touching on Github and Gitlab as I use those services quite often | [Link](./git/) |
 
 
