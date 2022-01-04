@@ -6,11 +6,11 @@ This guide will go through installing and setting up WSL**1** on **Windows 10**
 
 **TOC HERE**
 
-# General Dependencies
+# 1. General Dependencies
 
 This guide assumes that you are using the **Windows 10** OS.
 
-# Guide
+# 2. Guide
 
 ## 2.1. Enabling WSL
 
@@ -35,11 +35,11 @@ Once done, restart in order for the change to take place.
 
 First, open your Control Panel and navigate to 'Programs'. Find the 'Turn Windows Feature on or off' tab by the side and click on it.
 
-<Insert image here>
+![controlPanel](assets/controlPanel.jpeg)
 
 Scroll until you find the 'Windows Subsystem for Linux' option and check it.
 
-<Insert image here>
+![enableWSL](assets/enableWSL.jpeg)
 
 Once done, you can click the 'Ok' button to save and close. Windows should then give you a prompt to restart. You can choose to restart later or restart now but WSL will only be enabled once you restart.
 
@@ -48,8 +48,6 @@ Once done, you can click the 'Ok' button to save and close. Windows should then 
 Now that you have enabled WSL, you can head to the Microsoft Store and install a Linux Distribution.
 
 First, open Microsoft Store and search for your preferred Distribution. Then, click 'Get', then 'Install'.
-
-<Insert image here>
 
 Once the installation has completed, you can then launch the Distribution similar to how you would launch a normal Software.
 
@@ -63,24 +61,21 @@ Installing Windows Terminal is Optional and not technically required for you to 
 
 Installing Windows Terminal is also easy. Just go to the Microsoft Store and search for it. Then, click 'Get' and 'Install'. Once the installation is completed, you can then launch it like any other normal Software.
 
-<Insert image here>
-
 You can then choose and customize the different profiles and terminals you have.
 
-# Conclusion
+# 3. Conclusion
 
-# References
+If you've made it to this point, you can now use WSL on your Windows device!
+
+Below is a screenshot of my Windows Terminal, with some extra customization. If you want to know more about how to customise your Windows Terminal, head [here](../../linux/my-terminal-setup/README.md)
+
+![conclusion](assets/windowsTerminal.jpeg)
+
+# 4. References
 
 -   [Powershell Installation](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
 -   [Control Panel Installation](https://www.windowscentral.com/install-windows-subsystem-linux-windows-10)
 
 ### Updates
 
-<!--
-REMOVE ME WHEN COPYING
-
-Make sure to add Table of Contents (TOC) when done
-Make sure to generate section numbers when done
-
-Take note to comment out the first two sections when doing this
- -->
+-   **04/11/2022** - Guide Completed
