@@ -4,8 +4,6 @@ This guide will go through installing and setting up WSL**1** on **Windows 10**
 
 ## Table of Contents
 
--   [WSL](#wsl)
-    -   [Table of Contents](#table-of-contents)
 -   [1. General Dependencies](#1-general-dependencies)
 -   [2. Guide](#2-guide)
     -   [2.1. Enabling WSL](#21-enabling-wsl)
